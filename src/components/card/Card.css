@@ -1,0 +1,49 @@
+.card-container {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.card-header {
+  position: relative;
+}
+
+.pet-name {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.card-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pet-dob {
+  font-size: 12px;
+  font-weight: 700;
+  color: #434d56;
+}
+
+.pet-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pet-tag {
+  padding: 5px;
+  border: 1px solid rgba(121, 191, 237);
+  border-radius: 5px;
+  color: #434d56;
+}
+
+.pet-summary {
+  font-size: 13px;
+  color: #434d56;
+}
